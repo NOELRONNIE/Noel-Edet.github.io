@@ -1,0 +1,54 @@
+img{
+    width: 140px;
+    height: 340px;
+}
+.carousel{
+    margin: 10px 80px 40px 80px ;
+}
+.card{
+    width: 320px;
+    height: 830px;
+    margin: 15px;
+    margin-top: 30px;
+    background-color: #909097a1;
+    color: #351446;
+    border: rgba(192, 192, 192, 0.849) 3px solid;
+    border-radius: px;
+   float: left;
+    
+}
+.navbar{
+    background-color: rgba(43, 54, 54, 0.808);
+    background-image: linear-gradient(to bottom,#644949d5, #14bfc5d5);
+   
+}
+
+.pix{
+    background-color: rgba(0, 0, 0, 0.932);
+    padding-bottom: 15px;
+    
+}
+.pix img{
+    width: 350px;
+    height: 500px;
+}
+body{
+    background-color: gray;
+     background-image: linear-gradient(to bottom,#2c0606d5, #233779d5);
+    position: relative;
+}
+body::after{
+    content: '';
+  position: absolute;
+    opacity: 0.9;
+}
+h1{
+   font-size: 85px;
+}
+.carousel{
+    transition: all;
+    transition: transform 2s ease-in, opacity .5s ease-out;
+    
+
+}
+

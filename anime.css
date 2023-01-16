@@ -1,0 +1,26 @@
+.logo{
+    background-image: url('download.png');
+    background-size: contain ;
+    background-color: white;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+   border-radius: 120px 0px 0px 120px;
+}
+h1{
+    font-size: 5em;
+    font-family: vecna;
+    color: rgb(102, 10, 10);
+}
+body{
+    background-color: #000000;
+    background-image: linear-gradient(to bottom,#441414da, #217faacb);
+}
+body::after{
+    content: '';
+  position: absolute;
+    opacity: 0.9;
+}
+.bigp{
+    opacity: 0.87;
+    content: '';
+}
